@@ -1,0 +1,34 @@
+@import '../../../../../mixins/mixins.scss';
+
+.orders__main{
+    width: 73%;
+    height: 100%;
+    position: relative;
+    &-header{
+        width: 100%;
+        height: auto;
+        padding: 22px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        .row{
+            display: flex;
+            gap: 15px;
+        }
+        input{
+            width: 450px;
+            height: 50px;
+            border-radius: 4px;
+            padding: 0 15px;
+            border: 1px solid #FFC12F;
+        }
+        button{
+            @include button();
+        }
+        p{
+            font-size: clamp(16px,2.5vw,20px);
+            font-weight: 400;
+        }
+    }
+}

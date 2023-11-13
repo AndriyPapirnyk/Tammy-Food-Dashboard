@@ -1,0 +1,27 @@
+.staff__addMember {
+  position: absolute;
+  width: 600px;
+  height: 650px;
+  border-radius: 7px;
+  background-color: #fff;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  right: calc(50% - 350px);
+  top: calc(50% - 325px);
+  z-index: 3;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.staff__addMember h1 {
+  line-height: normal;
+}
+.staff__addMember button {
+  width: 145px;
+  height: 50px;
+  background-color: #FFC12F;
+  color: #fff;
+  border-radius: 6px;
+}

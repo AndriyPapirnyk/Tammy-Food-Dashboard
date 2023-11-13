@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900');
+
+*,
+*::before,
+*::after {box-sizing: border-box; font-family: 'Inter'; color: #333; margin: 0; padding: 0}
+ul{list-style: none;display: flex;}
+ol{padding: 0;}
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li{margin: 0; padding: 0;}
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5; }
+ul,
+ol{list-style: none;}
+a{text-decoration:none}
+img {display: block;}
+input,
+button,
+textarea,
+select {font: inherit; outline: none; border: none; cursor: pointer;}
+html, body {scroll-behavior: smooth;}
+  

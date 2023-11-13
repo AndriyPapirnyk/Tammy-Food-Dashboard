@@ -1,0 +1,5 @@
+@import '../../mixins/mixins.scss';
+
+.cooker{
+    @include block(100vh)
+}

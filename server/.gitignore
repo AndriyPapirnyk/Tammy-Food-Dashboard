@@ -1,0 +1,24 @@
+# Node.js runtime files
+node_modules/
+
+# Environment variables configuration (use a .env file instead)
+.env
+
+# Log files
+logs/
+*.log
+
+# Build artifacts
+dist/
+
+# Dependency lock files
+yarn.lock
+package-lock.json
+
+# Editor/IDE specific files
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db

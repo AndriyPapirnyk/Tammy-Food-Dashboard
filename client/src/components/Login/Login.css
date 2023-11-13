@@ -1,0 +1,20 @@
+.login {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: #FFFBF3;
+  position: relative;
+}
+.login__container {
+  width: 1250px;
+  height: 100%;
+  display: flex;
+}
+.login__container {
+  justify-content: space-between;
+  align-items: center;
+}
+.login__illustration {
+  height: 100%;
+}

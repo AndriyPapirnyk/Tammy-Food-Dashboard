@@ -1,0 +1,11 @@
+.cooker {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.cooker__container {
+  width: 1250px;
+  height: 100%;
+  display: flex;
+}

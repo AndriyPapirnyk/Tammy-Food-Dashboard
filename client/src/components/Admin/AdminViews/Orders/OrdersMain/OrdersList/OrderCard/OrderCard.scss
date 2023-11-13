@@ -1,0 +1,21 @@
+.orders__orderCard{
+    width: 100%;
+    height: 100px;
+    border-radius: 10.5px;
+    border: 0.699px solid rgba(112, 112, 112, 0.20);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 17px 22px;
+    transition: .3s;
+    &:hover{
+        border: 0.699px solid #F9A755;
+        box-shadow: 0px 30px 30px 13px rgba(198, 198, 198, 0.25);
+        transition: .3s;
+    }
+    &-additional{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+}

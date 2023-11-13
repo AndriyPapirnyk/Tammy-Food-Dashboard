@@ -1,0 +1,18 @@
+.orders__archive{
+    position: absolute;
+    width: 610px;
+    height: 500px;
+    top: calc(50% - 250px);
+    left: calc(50% - 305px);
+    z-index: 2;
+    overflow: scroll;
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    gap: 15px;
+    border: 0.699px solid #F9A755;
+    box-shadow: 0px 30px 30px 13px rgba(198, 198, 198, 0.25);
+}

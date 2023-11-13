@@ -1,0 +1,8 @@
+.orders__list {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 0 15px;
+  gap: 20px;
+}

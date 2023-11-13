@@ -1,0 +1,20 @@
+@mixin block($height) {
+    width: 100%;
+    height: $height;
+    display: flex;
+    justify-content: center;
+    &__container{
+        width: 1250px;
+        height: 100%;
+        // border: 1px solid #000;
+        display: flex;
+    }
+}
+
+@mixin button() {
+    width: 145px;
+    height: 50px;
+    background-color: #FFC12F;
+    color: #fff;
+    border-radius: 6px;
+}

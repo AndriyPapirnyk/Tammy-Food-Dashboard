@@ -1,0 +1,13 @@
+@import '../../mixins/mixins.scss';
+
+.welcome{
+    @include block(100vh);
+    position: relative;
+    background-color: #FFFBF3;
+    &__illustration{
+        height: 525px;
+        position: absolute;
+        right: 0;
+        top: calc(50% - 262.5px);
+    }
+}

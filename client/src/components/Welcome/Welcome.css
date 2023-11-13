@@ -1,0 +1,19 @@
+.welcome {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  background-color: #FFFBF3;
+}
+.welcome__container {
+  width: 1250px;
+  height: 100%;
+  display: flex;
+}
+.welcome__illustration {
+  height: 525px;
+  position: absolute;
+  right: 0;
+  top: calc(50% - 262.5px);
+}

@@ -1,0 +1,47 @@
+.admin__nav{
+    height: 100%;
+    width: 120px;
+    border-right: 1px solid #EAECED;
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0 0 0;
+    &-logo{
+        color: #3C3C3C;
+        // font-size: 32px;
+        font-size: clamp(20px,5vw,60px);
+        font-weight: 700;
+        line-height: normal;
+        span{
+            color: #FCC647;
+        }
+    }
+    &-options{
+        width: 100%;
+        margin-top: 25px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &-option{
+        padding: 10px 0;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        transition: .3s;
+        &:hover{
+            background-color: #FCC647;
+            transition: .3s;
+        }
+        img{
+            width: 40px;
+        }
+        span{
+            font-weight: 500;
+        }
+    }
+}

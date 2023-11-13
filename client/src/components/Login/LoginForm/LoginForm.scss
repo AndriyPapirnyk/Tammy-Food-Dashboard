@@ -1,0 +1,22 @@
+@import '../../../mixins/mixins.scss';
+.form__holder{
+    position: absolute;
+    right: calc(25%);
+}
+form{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    input{
+        width: 350px;
+        height: 50px;
+        border-radius: 4px;
+        padding: 0 15px;
+        border: 1px solid #FFC12F;
+    }
+    button{
+        @include button();
+    }
+}

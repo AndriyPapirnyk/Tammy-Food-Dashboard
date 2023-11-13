@@ -1,0 +1,43 @@
+@import '../../../../../mixins/mixins.scss';
+
+.orders__extra{
+    width: 27%;
+    height: 100%;
+    position: relative;
+    border-left: 1px solid #EAECED;
+    background-color: #f1f1f1;
+    padding: 22px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    &-header{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        .row{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            div{
+                background-color: rgb(20, 216, 216);
+                width: fit-content;
+                padding: 5px 15px;
+                border-radius: 20px;
+                color: #fff;
+            }
+        }
+    }
+    &-options{
+        position: absolute;
+        display: flex;
+        gap: 15px;
+        bottom: 30px;
+        left: calc(50% - 152.5px);
+        button{
+            @include button();
+        }
+    }
+}
